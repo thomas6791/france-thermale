@@ -28,6 +28,6 @@ class EstablishmentsController < ApplicationController
   end
 
   def etablissement_params
-    params.require(:establishment).permit(:name, :body)
+    params.require(:establishment).permit(:name, :body,:title)
   end
 end

@@ -61,6 +61,14 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_11_063122) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "address"
+    t.string "zip_code"
+    t.string "city"
+    t.string "tel"
+    t.string "email"
+    t.string "title"
+    t.string "meta_description"
+    t.string "canonical"
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
